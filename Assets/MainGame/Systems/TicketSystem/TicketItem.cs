@@ -9,7 +9,7 @@ public class TicketItemData : ItemData
 }
 
 [Serializable]
-public class ticketItem : Item
+public class TicketItem : Item
 {
     public TicketItemData ticketData => item as TicketItemData;
 }

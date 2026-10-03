@@ -7,13 +7,9 @@ public class SupplySystem : MonoBehaviour
     [SerializeField]
     private List<Item> supplyData = new List<Item>();
 
-    public UnityEvent<Item> onOrder;
-
-    public UnityEvent<Item> OnOrderFailedEvent;
-
-
-    public UnityEvent<List<Item>> OnUpdateOrdersList;
-
+    public UnityEvent<Item> OnOrderFailed;
+    public UnityEvent<List<Item>> OnOrdersUpdated;
+    public UnityEvent<Item> OnItemBought;
 
     public UnityEvent<Item> OnBuyItem;
 
@@ -22,7 +18,7 @@ public class SupplySystem : MonoBehaviour
     public void AddOrder(Item item)
     {
         supplyData.Add(item);
-        OnUpdateOrdersList?.Invoke(supplyData);
+        OnOrdersUpdated?.Invoke(supplyData);
     }
 
     // remove order on run time
@@ -30,12 +26,12 @@ public class SupplySystem : MonoBehaviour
     {
         if (!supplyData.Contains(item))
         {
-            OnOrderFailedEvent?.Invoke(item);
+            OnOrderFailed?.Invoke(item);
             return;
         }
 
         supplyData.Remove(item);
-        OnUpdateOrdersList?.Invoke(supplyData);
+        OnOrdersUpdated?.Invoke(supplyData);
 
     }
 
@@ -43,11 +39,11 @@ public class SupplySystem : MonoBehaviour
     {
         if (currentAmountGold < item.item.price)
         {
-            OnOrderFailedEvent?.Invoke(item);
+            OnOrderFailed?.Invoke(item);
             return;
         }
 
-        OnBuyItem?.Invoke(item);
+        OnItemBought?.Invoke(item);
     }
 
 }

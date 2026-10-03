@@ -4,32 +4,31 @@ using UnityEngine.Events;
 
 public class CurrentTicket : MonoBehaviour
 {
-    [SerializeField] private List<ticketItem> currentTicket = new List<ticketItem>();
+    [SerializeField] private List<TicketItem> currentTickets = new List<TicketItem>();
 
-    public UnityEvent<int> OnTicketCompletedEvent;
+    public UnityEvent<int> OnTicketCompleted;
 
-    public UnityEvent<List<ticketItem>> OnTicketUpdatedEvent;
+    public UnityEvent<List<TicketItem>> OnTicketUpdated;
 
-    public void AddTicketItem(ticketItem item)
+    public void AddTicketItem(TicketItem item)
     {
-        currentTicket.Add(item);
-        OnTicketUpdatedEvent.Invoke(currentTicket);
+        currentTickets.Add(item);
+        OnTicketUpdated.Invoke(currentTickets);
     }
 
-    public void RemoveTicketItem(ticketItem item)
+    public void RemoveTicketItem(TicketItem item)
     {
-        if (currentTicket.Contains(item))
+        if (currentTickets.Contains(item))
         {
-            currentTicket.Remove(item);
-            OnTicketUpdatedEvent.Invoke(currentTicket);
+            currentTickets.Remove(item);
+            OnTicketUpdated.Invoke(currentTickets);
         }
     }
 
-
-    public void CompleteTicket(ticketItem item)
+    public void CompleteTicket(TicketItem item)
     {
 
-        OnTicketCompletedEvent?.Invoke(item.item.price);
+        OnTicketCompleted?.Invoke(item.item.price);
         RemoveTicketItem(item);
 
     }

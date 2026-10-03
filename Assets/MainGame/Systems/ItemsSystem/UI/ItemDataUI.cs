@@ -13,7 +13,7 @@ public class ItemDataUI : MonoBehaviour
     public void init(Item item)
     {
         this.item = item;
-        itemNameText.text = item.item.name;
+        itemNameText.text = item.item.itemName;
         itemQuantityText.text = item.item.defaultQuantity.ToString();
         itemPriceText.text = item.item.price.ToString();
         itemSpriteImage.sprite = item.item.sprite;
