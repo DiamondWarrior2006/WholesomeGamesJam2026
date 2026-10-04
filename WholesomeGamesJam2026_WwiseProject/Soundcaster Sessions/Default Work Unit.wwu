@@ -14,6 +14,10 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="SFX_Radio_Switch" ID="{EDF08FC7-6A5A-4E8D-935C-3BED8BCA166D}" WorkUnitID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="MX_BackgroundMusic_Stop" ID="{B9B6C64F-8952-4120-996C-863B9B4E0849}" WorkUnitID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -22,14 +26,22 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="SFX_Radio_Play" ID="{B8A6AF69-8234-428B-859C-A23B2EEA830B}" WorkUnitID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="SFX_Screwdriver" ID="{AEA260DD-1CBB-4347-8E43-347759375AF3}" WorkUnitID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}"/>
 							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Radio_Stop" ID="{B9249D2F-70EC-4FB9-B642-D19D0252B9AC}" WorkUnitID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}"/>
+							<Position X="2" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Test_RadioTuning" ID="{CC308382-2DA3-4C52-ABA9-5A11B7473DFA}"/>
-							<Value>99.8087954110899</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

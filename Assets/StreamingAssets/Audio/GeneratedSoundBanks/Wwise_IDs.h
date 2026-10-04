@@ -20,6 +20,11 @@ namespace AK
         static const AkUniqueID SFX_SCREWDRIVER = 1301463173U;
     } // namespace EVENTS
 
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID TEST_RADIOTUNING = 4073857046U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

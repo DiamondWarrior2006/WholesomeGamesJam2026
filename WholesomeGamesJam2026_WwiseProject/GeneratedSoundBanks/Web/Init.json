@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{5B1A1B30-A164-3386-2B5F-3FF552178E23}",
+    "Hash": "{E918C89D-8143-C38C-2E00-5F5715B02936}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -41,9 +41,17 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "4073857046",
+      "Name": "Test_RadioTuning",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Test_RadioTuning",
+      "GUID": "{CC308382-2DA3-4C52-ABA9-5A11B7473DFA}"
+     }
     ]
    }
   ],
-  "FileHash": "{5776F0A3-8E97-8C73-AADD-7A84CD479D30}"
+  "FileHash": "{F90D7B70-890A-8FD4-FA05-D3A97940785D}"
  }
 }
