@@ -2,7 +2,7 @@ using System;
 using TMPro;
 using UnityEngine;
 
-public class TicketItemUI : ItemDataUI
+public class TicketItemUI : PartDataUI
 {
     [SerializeField] private TextMeshProUGUI descriptionText;
     private Action<TicketItem> action;

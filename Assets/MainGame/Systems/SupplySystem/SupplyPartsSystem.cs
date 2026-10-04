@@ -2,27 +2,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class SupplySystem : MonoBehaviour
+public class SupplyPartsSystem : MonoBehaviour
 {
     [SerializeField]
-    private List<Item> supplyData = new List<Item>();
+    private List<Part> supplyData = new List<Part>();
 
-    public UnityEvent<Item> OnOrderFailed;
-    public UnityEvent<List<Item>> OnOrdersUpdated;
-    public UnityEvent<Item> OnItemBought;
+    public UnityEvent<Part> OnOrderFailed;
+    public UnityEvent<List<Part>> OnOrdersUpdated;
+    public UnityEvent<Part> OnItemBought;
 
-    public UnityEvent<Item> OnBuyItem;
+    public UnityEvent<Part> OnBuyItem;
 
 
     // add new order on run time
-    public void AddOrder(Item item)
+    public void AddOrder(Part item)
     {
         supplyData.Add(item);
         OnOrdersUpdated?.Invoke(supplyData);
     }
 
     // remove order on run time
-    public void RemoveOrder(Item item)
+    public void RemoveOrder(Part item)
     {
         if (!supplyData.Contains(item))
         {
@@ -35,7 +35,7 @@ public class SupplySystem : MonoBehaviour
 
     }
 
-    public void orderItem(int currentAmountGold, Item item)
+    public void orderItem(int currentAmountGold, Part item)
     {
         if (currentAmountGold < item.item.price)
         {

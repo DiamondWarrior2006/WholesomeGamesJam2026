@@ -2,15 +2,15 @@ using System;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-public class ItemDataUI : MonoBehaviour
+public class PartDataUI : MonoBehaviour
 {
-    [SerializeField] protected Item item;
+    [SerializeField] protected Part item;
     [SerializeField] private TextMeshProUGUI itemNameText;
     [SerializeField] private TextMeshProUGUI itemQuantityText;
     [SerializeField] private TextMeshProUGUI itemPriceText;
     [SerializeField] private Image itemSpriteImage;
 
-    public void init(Item item)
+    public void init(Part item)
     {
         this.item = item;
         itemNameText.text = item.item.itemName;
