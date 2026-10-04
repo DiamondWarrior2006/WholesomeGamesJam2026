@@ -2,11 +2,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class CurrentTicket : MonoBehaviour
+public class TicketList : MonoBehaviour
 {
     [SerializeField] private List<TicketItem> currentTickets = new List<TicketItem>();
-
-    public UnityEvent<int> OnTicketCompleted;
 
     public UnityEvent<List<TicketItem>> OnTicketUpdated;
 
@@ -23,14 +21,6 @@ public class CurrentTicket : MonoBehaviour
             currentTickets.Remove(item);
             OnTicketUpdated.Invoke(currentTickets);
         }
-    }
-
-    public void CompleteTicket(TicketItem item)
-    {
-
-        OnTicketCompleted?.Invoke(item.item.price);
-        RemoveTicketItem(item);
-
     }
 
 }
