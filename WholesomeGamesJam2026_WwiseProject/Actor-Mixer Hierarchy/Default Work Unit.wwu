@@ -52,6 +52,68 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{677DB628-C86E-4480-8963-DA05DBA116F5}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Radio_Crackle_Soft_1" ID="{DB04A133-26C6-4CBC-96D1-3F769141B61B}" ShortID="1067260193">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF775E3F-1F7C-4215-BB8F-4CC2D9E7F3C1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{677DB628-C86E-4480-8963-DA05DBA116F5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Radio_Crackle_Soft_1" ID="{34A54B79-7654-41FB-AD03-47BF7A210AD9}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Radio_Crackle_Soft_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="614152022"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Radio_Crackle_Soft_1" ID="{34A54B79-7654-41FB-AD03-47BF7A210AD9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Radio_Crackle_Soft_2" ID="{54E1C38B-CD61-40B9-A2A0-1181578D227F}" ShortID="1046835647">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF775E3F-1F7C-4215-BB8F-4CC2D9E7F3C1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{677DB628-C86E-4480-8963-DA05DBA116F5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Radio_Crackle_Soft_2" ID="{46603558-DD19-4065-96DC-F0170E2AB18D}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Radio_Crackle_Soft_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="262279156"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Radio_Crackle_Soft_2" ID="{46603558-DD19-4065-96DC-F0170E2AB18D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_Radio_Crackles_Harsh" ID="{7F06373C-3B06-4B6B-B6E7-3D1DC27C231B}" ShortID="614639476">
 									<ReferenceList>
@@ -64,6 +126,14 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="SFX_Radio_Crackle_Harsh_1" ID="{9C925B34-A98B-4069-A905-D487C7A34453}" ShortID="80407867">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF775E3F-1F7C-4215-BB8F-4CC2D9E7F3C1}"/>
@@ -86,6 +156,14 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Radio_Crackle_Harsh_2" ID="{CFF65E51-E9A8-49F9-BFF7-02A069EB6E0F}" ShortID="572728624">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF775E3F-1F7C-4215-BB8F-4CC2D9E7F3C1}"/>
@@ -108,6 +186,14 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Radio_Crackle_Harsh_3" ID="{2B6DB72C-8230-438F-9978-2EDF0B1EEF0C}" ShortID="75778223">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF775E3F-1F7C-4215-BB8F-4CC2D9E7F3C1}"/>
@@ -173,6 +259,11 @@
 										<Sound Name="MX_Radio_Music_RainPiano_StrictLoop" ID="{B7855BFD-5B26-4E7B-8AA9-1ECC2842A74C}" ShortID="333622845">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -197,23 +288,97 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_Radio_SearchWobbles" ID="{350DA6E1-4C4E-4414-9EAC-8BCCC985508D}" ShortID="1005023117">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF775E3F-1F7C-4215-BB8F-4CC2D9E7F3C1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{677DB628-C86E-4480-8963-DA05DBA116F5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Radio_SearchWobble" ID="{4E762A63-3017-46B2-98B2-E6680FDA5F35}" ShortID="970090200">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF775E3F-1F7C-4215-BB8F-4CC2D9E7F3C1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{677DB628-C86E-4480-8963-DA05DBA116F5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Radio_SearchWobble" ID="{364B5BE6-EEC4-4A44-A88D-0B8E99A2DA46}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Radio_SearchWobble.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="979734635"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Radio_SearchWobble" ID="{364B5BE6-EEC4-4A44-A88D-0B8E99A2DA46}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<BlendTrackList>
 								<BlendTrack Name="Radio Program" ID="{BCEE1143-5F25-44D8-BC16-ACB897CC4864}" ShortID="208045651">
-									<ObjectLists>
-										<ObjectList Name="RTPC">
-											<Reference>
-												<Local>
-													<RTPC Name="" ID="{7B07079F-412B-48BA-9520-B56960062955}" ShortID="108777422">
-														<PropertyList>
-															<Property Name="PropertyName" Type="string" Value="Volume"/>
-														</PropertyList>
-														<ReferenceList/>
-													</RTPC>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Test_RadioTuning" ID="{CC308382-2DA3-4C52-ABA9-5A11B7473DFA}" WorkUnitID="{DE7D1523-0A4A-4C11-94C5-95D9F3FB5A0D}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="SFX_Radio_Crackles_Harsh" ID="{7F06373C-3B06-4B6B-B6E7-3D1DC27C231B}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>36.6549171761039</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="SFX_Radio_Crackles_Soft" ID="{435480C1-6B4D-40C6-83DF-D4007B775988}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>2.38890891022071</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>63.8741560006354</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="SFX_Radio_SearchWobbles" ID="{350DA6E1-4C4E-4414-9EAC-8BCCC985508D}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>40.2985551241364</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>97.238118836448</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="SFX_Radio_Program" ID="{9E0C76FD-599A-4354-823B-65BCE7DBEBD5}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>65.8280133421626</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>

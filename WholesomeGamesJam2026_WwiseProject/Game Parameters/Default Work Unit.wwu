@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DE7D1523-0A4A-4C11-94C5-95D9F3FB5A0D}" SchemaVersion="123">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{DE7D1523-0A4A-4C11-94C5-95D9F3FB5A0D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DE7D1523-0A4A-4C11-94C5-95D9F3FB5A0D}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Test_RadioTuning" ID="{CC308382-2DA3-4C52-ABA9-5A11B7473DFA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
