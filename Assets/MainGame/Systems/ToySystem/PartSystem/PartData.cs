@@ -18,4 +18,14 @@ public class Part
     public float cleanliness = 1f;
     [Range(0f, 1f)]
     public float connected = 0f;
+
+    public bool IsClean => cleanliness >= ToyData.CleanlinessThreshold;
+    public bool IsConnected => connected >= ToyData.ConnectedThreshold;
+    public bool IsComplete => IsClean && IsConnected;
+    public bool CanRelease => connected < ToyData.ReleaseThreshold;
+
+    public Part Clone()
+    {
+        return new Part { item = item, cleanliness = cleanliness, connected = connected };
+    }
 }

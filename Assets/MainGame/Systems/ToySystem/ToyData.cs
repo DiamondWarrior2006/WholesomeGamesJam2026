@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewToyData", menuName = "Item System/Toy Data")]
-public class ToyData
+public class ToyData: ScriptableObject
 {
     public const float CleanlinessThreshold = 0.9f;
+    public const float ConnectedThreshold = 0.9f;
     public const float ReleaseThreshold = 0.1f;
 
     [SerializeField] private List<Part> toyItems = new List<Part>();
@@ -59,6 +60,31 @@ public class Toy
         currentParts.Add(part);
     }
 
+    public Part GetPart(PartData data, int occurrence = 0)
+    {
+        int count = 0;
+        foreach (var part in currentParts)
+        {
+            if (part.item != data) continue;
+            if (count == occurrence) return part;
+            count++;
+        }
+        return null;
+    }
+
+    public bool IsPartComplete(PartData data)
+    {
+        bool found = false;
+        foreach (var part in currentParts)
+        {
+            if (part.item != data) continue;
+            found = true;
+            if (!part.IsComplete) return false;
+        }
+        return found;
+    }
+
+
     public void RemoveToyPart(Part part)
     {
         if (currentParts.Contains(part) && part.connected < ToyData.ReleaseThreshold)
@@ -71,11 +97,38 @@ public class Toy
     {
         foreach (var part in currentParts)
         {
-            if (part.cleanliness <= ToyData.CleanlinessThreshold)
-            {
-                return false;
-            }
+            if (!part.IsClean) return false;
         }
+        return true;
+    }
+
+
+    public bool IsComplete()
+    {
+        if (toyTemplateData == null) return false;
+
+        var templateParts = toyTemplateData.GetToyParts();
+        if (currentParts.Count != templateParts.Count) return false;
+
+        foreach (var part in currentParts)
+        {
+            if (!part.IsComplete) return false;
+        }
+
+        // count parts per type so order doesnt matter
+        var needed = new Dictionary<PartData, int>();
+        foreach (var part in templateParts)
+        {
+            needed.TryGetValue(part.item, out int n);
+            needed[part.item] = n + 1;
+        }
+
+        foreach (var part in currentParts)
+        {
+            if (part.item == null || !needed.TryGetValue(part.item, out int n) || n == 0) return false;
+            needed[part.item] = n - 1;
+        }
+
         return true;
     }
 }

@@ -22,7 +22,7 @@ public class TicketPageUI : MonoBehaviour
 
     public void CompleteTicketItemUI(TicketItem item)
     {
-        if (item.isComplete())
+        if (item.IsComplete())
         {
             OnTicketItemComplete?.Invoke(item);
             //give coins and remove the ticket from the list
