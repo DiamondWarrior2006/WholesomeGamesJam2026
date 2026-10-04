@@ -23,6 +23,6 @@ public class DustSpot : MonoBehaviour, IToolTarget
         var color = dust.color;
         color.a = 1f - Clean;
         dust.color = color;
-        dust.enabled = Clean < 1f;
+        gameObject.SetActive(Clean < 1f);
     }
 }

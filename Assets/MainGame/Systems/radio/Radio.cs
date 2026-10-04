@@ -10,13 +10,14 @@ public class Radio : MonoBehaviour
 
     [Header("Visuals")]
     [SerializeField] private Transform antenna;
+    [SerializeField] private float antennaDepth = 0.5f; // how far it sinks when screwed in
     [SerializeField] private Transform knob;
 
     [Header("Dial")]
     [SerializeField] private TMP_Text frequencyText;
     [SerializeField] private Transform needle;
-    [SerializeField] private float needleMinX = -1f;
-    [SerializeField] private float needleMaxX = 1f;
+    [SerializeField] private float needleMinAngle = 60f;
+    [SerializeField] private float needleMaxAngle = -60f;
     [SerializeField] private SpriteRenderer signalLight;
     [SerializeField] private Color lightOff = new Color(0.2f, 0.2f, 0.2f);
     [SerializeField] private Color lightNoSignal = Color.red;
@@ -34,6 +35,11 @@ public class Radio : MonoBehaviour
 
     // hook the audio here: IsOn, HasSignal, Tuning
     public UnityEvent<Radio> OnChanged;
+    public UnityEvent OnActivated;
+    public UnityEvent OnDeactivated;
+    public UnityEvent<float> OnTuned;
+    public UnityEvent<float> OnUntuned;
+    
 
     public bool IsOn { get; private set; }
     public float Frequency { get; private set; } = 90f;
@@ -43,6 +49,13 @@ public class Radio : MonoBehaviour
     public float Tuning => HasSignal ? Mathf.Clamp01(1f - Mathf.Abs(Frequency - targetFrequency) / searchRange) : 0f;
 
     private Part antennaPart;
+    private Vector3 antennaLoosePosition;
+
+    private void Awake()
+    {
+        // place the antenna in the editor where it sits when fully loose
+        antennaLoosePosition = antenna.localPosition;
+    }
 
     private void Start()
     {
@@ -77,18 +90,25 @@ public class Radio : MonoBehaviour
     {
         if (antennaPart == null) return;
         antennaPart.connected = Mathf.Clamp01(antennaPart.connected + degrees / (turnsToTighten * 360f));
+        if (HasSignal && Mathf.Abs(Frequency - targetFrequency) <= searchRange) OnTuned?.Invoke(Frequency);
+        else OnUntuned?.Invoke(Frequency);
         Refresh();
     }
 
     public void TurnKnob(float degrees)
     {
         Frequency = Mathf.Clamp(Frequency + degrees / 360f * mhzPerTurn, minFrequency, maxFrequency);
+        if (HasSignal && Mathf.Abs(Frequency - targetFrequency) <= searchRange) OnTuned?.Invoke(Frequency);
+        else OnUntuned?.Invoke(Frequency);
+
         Refresh();
     }
 
     public void TogglePower()
     {
         IsOn = !IsOn;
+        if (IsOn) OnActivated?.Invoke();
+        else OnDeactivated?.Invoke();
         Refresh();
     }
 
@@ -96,15 +116,17 @@ public class Radio : MonoBehaviour
     {
         if (antennaPart != null)
         {
-            antenna.localRotation = Quaternion.Euler(0f, 0f, (1f - antennaPart.connected) * 30f);
+            // spin and sink at the same time, like a screw going in
+            float connected = antennaPart.connected;
+            antenna.localRotation = Quaternion.Euler(0f, (1f - connected) * turnsToTighten * 360f, 0f);
+            antenna.localPosition = antennaLoosePosition + Vector3.down * (connected * antennaDepth);
+            
         }
 
         knob.localRotation = Quaternion.Euler(0f, 0f, -(Frequency - minFrequency) / mhzPerTurn * 360f);
 
         float dial = Mathf.InverseLerp(minFrequency, maxFrequency, Frequency);
-        var needlePos = needle.localPosition;
-        needlePos.x = Mathf.Lerp(needleMinX, needleMaxX, dial);
-        needle.localPosition = needlePos;
+        needle.localRotation = Quaternion.Euler(0f, 0f, Mathf.Lerp(needleMinAngle, needleMaxAngle, dial));
 
         frequencyText.text = IsOn ? $"{Frequency:0.0} MHz" : "";
 
