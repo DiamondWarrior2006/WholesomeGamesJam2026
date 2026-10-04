@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="SFX_AirDuster" ID="{EC2528FF-997D-439B-9928-B5063DCA9EA3}">
+					<ChildrenList>
+						<Action Name="" ID="{E790574F-4505-4A51-B2D3-C9D0A8FCE230}" ShortID="316612293">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_AirDuster" ID="{0AFBE7FF-8F68-4CB1-8473-D8DFC7C664A4}" WorkUnitID="{74F0D9AE-A8A1-4E65-A090-6458163CCC69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_PickUpScrew" ID="{32469352-49A7-468D-BA28-AE00BD6B0CAD}">
+					<ChildrenList>
+						<Action Name="" ID="{C6A61DB5-46A1-4743-90F4-718DF238B9A1}" ShortID="624668984">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_PickUpScrew" ID="{C7DDE2F5-C7B2-45B3-9176-B51293EF5D84}" WorkUnitID="{74F0D9AE-A8A1-4E65-A090-6458163CCC69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Screwdriver" ID="{AEA260DD-1CBB-4347-8E43-347759375AF3}">
+					<ChildrenList>
+						<Action Name="" ID="{779BC81F-6BA3-426E-9612-78B7DB3B6020}" ShortID="322872395">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Screwdriver" ID="{1EFA05A6-996D-4F84-A3FF-4A199288DA64}" WorkUnitID="{74F0D9AE-A8A1-4E65-A090-6458163CCC69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MX_BackgroundMusic" ID="{3CF63918-AD0A-4D00-BEDD-E9BB4F2657FF}">
+					<ChildrenList>
+						<Action Name="" ID="{F9C41E0A-7CFD-48D9-A2FA-26585DCFDE82}" ShortID="983876574">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MX_BackgroundMusic" ID="{940C8CF1-F350-4482-8EE0-87914208AE4B}" WorkUnitID="{53B0A739-DB2F-486D-846E-87B3A53A6010}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Radio_Play" ID="{B8A6AF69-8234-428B-859C-A23B2EEA830B}">
+					<ChildrenList>
+						<Action Name="" ID="{5C697A96-7EED-44EB-A968-9EECB2270079}" ShortID="276120030">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Radio_Fixed_Tuning" ID="{DD6A7A70-3E68-410C-9083-1F13BB23B62D}" WorkUnitID="{74F0D9AE-A8A1-4E65-A090-6458163CCC69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EFA30F2A-E62F-4B20-9E08-0F3F16EE3BCD}" ShortID="281270732">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Radio_Switch" ID="{50005077-3E11-48A7-B5F9-FBF498CF506F}" WorkUnitID="{74F0D9AE-A8A1-4E65-A090-6458163CCC69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FA1A8D9C-B629-4ECE-B38A-BE8F98059C3C}" ShortID="488281549">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Radio_SearchWobbles" ID="{350DA6E1-4C4E-4414-9EAC-8BCCC985508D}" WorkUnitID="{74F0D9AE-A8A1-4E65-A090-6458163CCC69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7E5E331A-E0C7-4B73-9AE4-C4266AF74E2A}" ShortID="548862550">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MX_BackgroundMusic" ID="{940C8CF1-F350-4482-8EE0-87914208AE4B}" WorkUnitID="{53B0A739-DB2F-486D-846E-87B3A53A6010}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Radio_Stop" ID="{B9249D2F-70EC-4FB9-B642-D19D0252B9AC}">
+					<ChildrenList>
+						<Action Name="" ID="{C870FF1C-8D92-4556-9F54-A77F57FCC249}" ShortID="206123912">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Radio_Fixed_Tuning" ID="{DD6A7A70-3E68-410C-9083-1F13BB23B62D}" WorkUnitID="{74F0D9AE-A8A1-4E65-A090-6458163CCC69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B492E8F1-C56E-4EDD-A09E-D9430B0D6089}" ShortID="268308614">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Radio_Switch" ID="{50005077-3E11-48A7-B5F9-FBF498CF506F}" WorkUnitID="{74F0D9AE-A8A1-4E65-A090-6458163CCC69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CB35A756-7D9E-4947-9039-BA10A78DA0D4}" ShortID="385338438">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MX_BackgroundMusic" ID="{940C8CF1-F350-4482-8EE0-87914208AE4B}" WorkUnitID="{53B0A739-DB2F-486D-846E-87B3A53A6010}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7CEB9D0B-E517-4609-84E9-76FA21F969D8}" ShortID="253006305">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MX_BackgroundMusic" ID="{3CF63918-AD0A-4D00-BEDD-E9BB4F2657FF}" WorkUnitID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Radio_BrokenSwitch" ID="{EDF08FC7-6A5A-4E8D-935C-3BED8BCA166D}">
+					<ChildrenList>
+						<Action Name="" ID="{04CA6EE5-5664-421F-AF37-3D1859045FF8}" ShortID="228295887">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Radio_Switch" ID="{50005077-3E11-48A7-B5F9-FBF498CF506F}" WorkUnitID="{74F0D9AE-A8A1-4E65-A090-6458163CCC69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

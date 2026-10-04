@@ -1,0 +1,75 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{D045DF33-00FF-FC82-97F8-2D419316857A}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{44A658CB-FA62-4336-94E0-7D16FFBD8D87}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{EDF8A532-5BC3-47DC-8A0D-7C7A3E473AF4}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX",
+      "GUID": "{C54FEC12-E15D-45D3-B913-C9209DBA8B48}"
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "MUSIC",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MUSIC",
+      "GUID": "{B23DD6DB-7C30-4D93-A9EC-1CD54CC25A97}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "266681096",
+      "Name": "RadioVolumeKnob",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RadioVolumeKnob",
+      "GUID": "{5F4C4E7F-E54E-4205-93FD-424F487631BE}"
+     },
+     {
+      "Id": "4073857046",
+      "Name": "Test_RadioTuning",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Test_RadioTuning",
+      "GUID": "{CC308382-2DA3-4C52-ABA9-5A11B7473DFA}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6EA39E69-40E4-C0B2-6860-6F59C99403E8}"
+ }
+}

@@ -1,0 +1,307 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010fea58ca4c1474b99993740ec4a8cc, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.Editor::AkWwiseProjectData
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: f3884bc79900a442a15d8d5b99ed2e8e
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: f3884bc79900a442a15d8d5b99ed2e8e
+    GuidInternal: 
+    m_lastTime: -8584104630512153879
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 28b67d676ec880448963da05dba116f5
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 28b67d676ec880448963da05dba116f5
+    GuidInternal: 
+    m_lastTime: -8584104630511860445
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 28b67d676ec880448963da05dba116f5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: f0dacfe039497746ad0feee762f06a84
+    ParentPath: SoundBanks\Default Work Unit
+    guid: f0dacfe039497746ad0feee762f06a84
+    GuidInternal: 
+    m_lastTime: -8584104538719236870
+    List:
+    - name: MUSIC
+      guid: bd3298d5e33d454a9f2cf7e304d99b44
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f0dacfe039497746ad0feee762f06a84
+      - ElementName: MUSIC
+        ObjectType: 7
+        guid: bd3298d5e33d454a9f2cf7e304d99b44
+      Path: SoundBanks\Default Work Unit\MUSIC
+    - name: SFX
+      guid: 08a4435f5c78f14bb5febb4ed63e7ffa
+      id: 393239870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f0dacfe039497746ad0feee762f06a84
+      - ElementName: SFX
+        ObjectType: 7
+        guid: 08a4435f5c78f14bb5febb4ed63e7ffa
+      Path: SoundBanks\Default Work Unit\SFX
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a22f133682cac742a47dee0de76d8297
+    ParentPath: Events\Default Work Unit
+    guid: a22f133682cac742a47dee0de76d8297
+    GuidInternal: 
+    m_lastTime: -8584104539098481154
+    List:
+    - name: MX_BackgroundMusic
+      guid: 1839f63c0aad004dbedde9bb4f2657ff
+      id: 816019498
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a22f133682cac742a47dee0de76d8297
+      - ElementName: MX_BackgroundMusic
+        ObjectType: 3
+        guid: 1839f63c0aad004dbedde9bb4f2657ff
+      Path: Events\Default Work Unit\MX_BackgroundMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_AirDuster
+      guid: ff2825ec7d999b439928b5063dca9ea3
+      id: 2085915398
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a22f133682cac742a47dee0de76d8297
+      - ElementName: SFX_AirDuster
+        ObjectType: 3
+        guid: ff2825ec7d999b439928b5063dca9ea3
+      Path: Events\Default Work Unit\SFX_AirDuster
+      maxAttenuation: 0
+      maxDuration: 0.497
+      minDuration: 0.19
+    - name: SFX_PickUpScrew
+      guid: 52934632a7498d46ba28ae00bd6b0cad
+      id: 3705479319
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a22f133682cac742a47dee0de76d8297
+      - ElementName: SFX_PickUpScrew
+        ObjectType: 3
+        guid: 52934632a7498d46ba28ae00bd6b0cad
+      Path: Events\Default Work Unit\SFX_PickUpScrew
+      maxAttenuation: 0
+      maxDuration: 0.751
+      minDuration: 0.451
+    - name: SFX_Radio_Play
+      guid: 69afa6b834828b42859ca23b2eea830b
+      id: 16820559
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a22f133682cac742a47dee0de76d8297
+      - ElementName: SFX_Radio_Play
+        ObjectType: 3
+        guid: 69afa6b834828b42859ca23b2eea830b
+      Path: Events\Default Work Unit\SFX_Radio_Play
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SFX_Radio_Stop
+      guid: 2f9d24b9ec70b94fb642d19d0252b9ac
+      id: 2734451277
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a22f133682cac742a47dee0de76d8297
+      - ElementName: SFX_Radio_Stop
+        ObjectType: 3
+        guid: 2f9d24b9ec70b94fb642d19d0252b9ac
+      Path: Events\Default Work Unit\SFX_Radio_Stop
+      maxAttenuation: 0
+      maxDuration: 0.35829166
+      minDuration: 0.22891666
+    - name: SFX_Radio_Switch
+      guid: c78ff0ed5a6a8d4e935c3bed8bca166d
+      id: 835579413
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a22f133682cac742a47dee0de76d8297
+      - ElementName: SFX_Radio_Switch
+        ObjectType: 3
+        guid: c78ff0ed5a6a8d4e935c3bed8bca166d
+      Path: Events\Default Work Unit\SFX_Radio_Switch
+      maxAttenuation: 0
+      maxDuration: 0.35829166
+      minDuration: 0.22891666
+    - name: SFX_Screwdriver
+      guid: dd60a2aebb1c47438e43347759375af3
+      id: 1301463173
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a22f133682cac742a47dee0de76d8297
+      - ElementName: SFX_Screwdriver
+        ObjectType: 3
+        guid: dd60a2aebb1c47438e43347759375af3
+      Path: Events\Default Work Unit\SFX_Screwdriver
+      maxAttenuation: 0
+      maxDuration: 0.57320833
+      minDuration: 0.258
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 23157dde4a0a114c94c595d9f3fb5a0d
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 23157dde4a0a114c94c595d9f3fb5a0d
+    GuidInternal: 
+    m_lastTime: -8584104589414386079
+    List:
+    - name: Test_RadioTuning
+      guid: 828330cca32d524caba95a11b7473dfa
+      id: 4073857046
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 23157dde4a0a114c94c595d9f3fb5a0d
+      - ElementName: Test_RadioTuning
+        ObjectType: 13
+        guid: 828330cca32d524caba95a11b7473dfa
+      Path: Game Parameters\Default Work Unit\Test_RadioTuning
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: bfb0d62eb0f03f4589c862d7f4708b8b
+    ParentPath: States\Default Work Unit
+    guid: bfb0d62eb0f03f4589c862d7f4708b8b
+    GuidInternal: 
+    m_lastTime: -8584104630511970576
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a942d4d7099d2140897562732eb26fa5
+    ParentPath: Switches\Default Work Unit
+    guid: a942d4d7099d2140897562732eb26fa5
+    GuidInternal: 
+    m_lastTime: -8584104630512023483
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8ae64f6933aa0847817809087121beaa
+    ParentPath: Triggers\Default Work Unit
+    guid: 8ae64f6933aa0847817809087121beaa
+    GuidInternal: 
+    m_lastTime: -8584104630512108845
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 05000000060000000f00000010000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 
