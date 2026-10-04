@@ -9,6 +9,10 @@
 							<ObjectRef Name="System" ID="{EDF8A532-5BC3-47DC-8A0D-7C7A3E473AF4}" WorkUnitID="{C3303DAD-4BD0-47AB-8F29-D5654E3E23D7}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="MUSIC" ID="{B23DD6DB-7C30-4D93-A9EC-1CD54CC25A97}"/>
+						<Bus Name="SFX" ID="{C54FEC12-E15D-45D3-B913-C9209DBA8B48}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

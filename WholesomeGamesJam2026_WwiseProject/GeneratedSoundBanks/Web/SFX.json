@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{5F43A408-785C-4BF1-B5FE-BB4ED63E7FFA}",
     "Language": "SFX",
-    "Hash": "{20CB3AD4-DABA-3984-9EF9-48B22386A0BE}",
+    "Hash": "{F2A08329-62F2-8D91-6397-AA5FAA93B067}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -645,6 +645,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "266681096",
+      "Name": "RadioVolumeKnob",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RadioVolumeKnob",
+      "GUID": "{5F4C4E7F-E54E-4205-93FD-424F487631BE}"
+     },
+     {
       "Id": "4073857046",
       "Name": "Test_RadioTuning",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Test_RadioTuning",
@@ -653,6 +659,6 @@
     ]
    }
   ],
-  "FileHash": "{1DB39480-185E-412B-D41E-2D019EE860EF}"
+  "FileHash": "{B8A420C5-DE81-5BB0-1290-C2DD00950EBF}"
  }
 }

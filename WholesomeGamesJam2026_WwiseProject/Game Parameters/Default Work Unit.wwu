@@ -8,6 +8,7 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="RadioVolumeKnob" ID="{5F4C4E7F-E54E-4205-93FD-424F487631BE}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

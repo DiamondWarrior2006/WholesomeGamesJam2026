@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF775E3F-1F7C-4215-BB8F-4CC2D9E7F3C1}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{677DB628-C86E-4480-8963-DA05DBA116F5}"/>
+							<ObjectRef Name="SFX" ID="{C54FEC12-E15D-45D3-B913-C9209DBA8B48}" WorkUnitID="{677DB628-C86E-4480-8963-DA05DBA116F5}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -535,6 +535,45 @@
 									</ObjectLists>
 								</RandomSequenceContainer>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{5EF9A25E-1814-43F7-8FC0-54644D6438E2}" ShortID="825213113">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RadioVolumeKnob" ID="{5F4C4E7F-E54E-4205-93FD-424F487631BE}" WorkUnitID="{DE7D1523-0A4A-4C11-94C5-95D9F3FB5A0D}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{85B86F60-6E9B-4236-BD0C-4B34363F7421}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<BlendTrackList>
 								<BlendTrack Name="Radio Program" ID="{BCEE1143-5F25-44D8-BC16-ACB897CC4864}" ShortID="208045651">
 									<PropertyList>
@@ -588,7 +627,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF775E3F-1F7C-4215-BB8F-4CC2D9E7F3C1}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{677DB628-C86E-4480-8963-DA05DBA116F5}"/>
+							<ObjectRef Name="SFX" ID="{C54FEC12-E15D-45D3-B913-C9209DBA8B48}" WorkUnitID="{677DB628-C86E-4480-8963-DA05DBA116F5}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

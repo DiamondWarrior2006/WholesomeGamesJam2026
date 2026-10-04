@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{2D1A71BE-4798-6877-5B9B-26384B651BAB}",
+    "Hash": "{D045DF33-00FF-FC82-97F8-2D419316857A}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,13 +36,31 @@
     },
     "Busses": [
      {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX",
+      "GUID": "{C54FEC12-E15D-45D3-B913-C9209DBA8B48}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "MUSIC",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MUSIC",
+      "GUID": "{B23DD6DB-7C30-4D93-A9EC-1CD54CC25A97}"
      }
     ],
     "GameParameters": [
+     {
+      "Id": "266681096",
+      "Name": "RadioVolumeKnob",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RadioVolumeKnob",
+      "GUID": "{5F4C4E7F-E54E-4205-93FD-424F487631BE}"
+     },
      {
       "Id": "4073857046",
       "Name": "Test_RadioTuning",
@@ -52,6 +70,6 @@
     ]
    }
   ],
-  "FileHash": "{563DE9EB-2242-E524-C942-A81F8E457C48}"
+  "FileHash": "{6EA39E69-40E4-C0B2-6860-6F59C99403E8}"
  }
 }

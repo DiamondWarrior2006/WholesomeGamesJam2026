@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4025059482	SFX_Radio_BrokenSwitch			\Default Work Unit\SFX_Radio_BrokenSwitch	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	266681096	RadioVolumeKnob			\Default Work Unit\RadioVolumeKnob	
 	4073857046	Test_RadioTuning			\Default Work Unit\Test_RadioTuning	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -53,7 +54,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	49003507	SFX_Radio_Crackle_Harsh_3	C:\Users\annim\Documents\GitHub\WholesomeGamesJam2026\WholesomeGamesJam2026_WwiseProject\.cache\A6\{A6FF1192-F4BC-39AC-6544-8060702A19C3}.wem	49003507.wem	\Actor-Mixer Hierarchy\Default Work Unit\SFX_Radio\SFX_Radio_Fixed_Tuning\SFX_Radio_Crackles_Harsh\SFX_Radio_Crackle_Harsh_3	
 	262279156	SFX_Radio_Crackle_Soft_2	C:\Users\annim\Documents\GitHub\WholesomeGamesJam2026\WholesomeGamesJam2026_WwiseProject\.cache\67\{67B87EAB-6F28-FB78-F7CB-B039CF4BB53A}.wem	262279156.wem	\Actor-Mixer Hierarchy\Default Work Unit\SFX_Radio\SFX_Radio_Fixed_Tuning\SFX_Radio_Crackles_Soft\SFX_Radio_Crackle_Soft_2	
-	546894197	MX_ToyWorkshop_TestMusic_1_1Pre1Post_60BPM	C:\Users\annim\Documents\GitHub\WholesomeGamesJam2026\WholesomeGamesJam2026_WwiseProject\.cache\C9\{C96ECD29-C680-3592-416E-F7B2DC29CD0E}.wem	546894197.wem	\Interactive Music Hierarchy\Default Work Unit\MX_BackgroundMusic\MX_ToyWorkshop_TestMusic_1_1Pre1Post_60BPM\MX_ToyWorkshop_TestMusic_1_1Pre1Post_60BPM	
+	546894197	MX_BackgroundMusic_Guitar	C:\Users\annim\Documents\GitHub\WholesomeGamesJam2026\WholesomeGamesJam2026_WwiseProject\.cache\C9\{C96ECD29-C680-3592-416E-F7B2DC29CD0E}.wem	546894197.wem	\Interactive Music Hierarchy\Default Work Unit\MX_BackgroundMusic\MX_BackgroundMusic\MX_BackgroundMusic_Guitar	
 	605397427	MX_Radio_Music_RainPiano_StrictLoop	C:\Users\annim\Documents\GitHub\WholesomeGamesJam2026\WholesomeGamesJam2026_WwiseProject\.cache\68\{687C11A0-57F9-E63F-BF52-D28A1B5B7E29}.wem	605397427.wem	\Actor-Mixer Hierarchy\Default Work Unit\SFX_Radio\SFX_Radio_Fixed_Tuning\SFX_Radio_Program\MX_Radio_Music_RainPiano_StrictLoop	
 	614152022	SFX_Radio_Crackle_Soft_1	C:\Users\annim\Documents\GitHub\WholesomeGamesJam2026\WholesomeGamesJam2026_WwiseProject\.cache\E5\{E5E03137-A1EA-7735-0E02-520CFF082797}.wem	614152022.wem	\Actor-Mixer Hierarchy\Default Work Unit\SFX_Radio\SFX_Radio_Fixed_Tuning\SFX_Radio_Crackles_Soft\SFX_Radio_Crackle_Soft_1	
 	796230905	SFX_Radio_Crackle_Harsh_1	C:\Users\annim\Documents\GitHub\WholesomeGamesJam2026\WholesomeGamesJam2026_WwiseProject\.cache\9D\{9DC6DA4A-3B6F-B3AF-F9B3-F6C155CDEEAB}.wem	796230905.wem	\Actor-Mixer Hierarchy\Default Work Unit\SFX_Radio\SFX_Radio_Fixed_Tuning\SFX_Radio_Crackles_Harsh\SFX_Radio_Crackle_Harsh_1	

@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF775E3F-1F7C-4215-BB8F-4CC2D9E7F3C1}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{677DB628-C86E-4480-8963-DA05DBA116F5}"/>
+							<ObjectRef Name="MUSIC" ID="{B23DD6DB-7C30-4D93-A9EC-1CD54CC25A97}" WorkUnitID="{677DB628-C86E-4480-8963-DA05DBA116F5}"/>
 						</Reference>
 						<Reference Name="PlaylistRoot">
 							<Custom>
@@ -25,7 +25,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Segment">
-													<ObjectRef Name="MX_ToyWorkshop_TestMusic_1_1Pre1Post_60BPM" ID="{E73DF250-3E8E-42F4-8923-92E72B60CE93}" WorkUnitID="{53B0A739-DB2F-486D-846E-87B3A53A6010}"/>
+													<ObjectRef Name="MX_BackgroundMusic" ID="{E73DF250-3E8E-42F4-8923-92E72B60CE93}" WorkUnitID="{53B0A739-DB2F-486D-846E-87B3A53A6010}"/>
 												</Reference>
 											</ReferenceList>
 										</MusicPlaylistItem>
@@ -50,7 +50,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="MX_ToyWorkshop_TestMusic_1_1Pre1Post_60BPM" ID="{E73DF250-3E8E-42F4-8923-92E72B60CE93}" ShortID="814283445">
+						<MusicSegment Name="MX_BackgroundMusic" ID="{E73DF250-3E8E-42F4-8923-92E72B60CE93}" ShortID="814283445">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="40000"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
@@ -70,7 +70,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="MX_ToyWorkshop_TestMusic_1_1Pre1Post_60BPM" ID="{CA478AF2-0B19-4783-B90E-BB139568CA36}" ShortID="813682973">
+								<MusicTrack Name="MX_BackgroundMusic_Guitar" ID="{CA478AF2-0B19-4783-B90E-BB139568CA36}" ShortID="813682973">
 									<PropertyList>
 										<Property Name="IsStreamingEnabled" Type="bool">
 											<ValueList>
