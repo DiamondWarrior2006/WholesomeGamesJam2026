@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: aa3887af3f769684abb7fc23b6635876
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4561133203867870725
+    second: radio_dust_bits_0
+  - first:
+      213: 1618718070490482986
+    second: radio_dust_bits_1
+  - first:
+      213: -195938546603401286
+    second: radio_dust_bits_2
+  - first:
+      213: -2851453345737908011
+    second: radio_dust_bits_3
+  - first:
+      213: -8846622456441325684
+    second: radio_dust_bits_4
+  - first:
+      213: 6483905216182667886
+    second: radio_dust_bits_5
+  - first:
+      213: -8367379199602290831
+    second: radio_dust_bits_6
+  - first:
+      213: -1534627608994486517
+    second: radio_dust_bits_7
+  - first:
+      213: 1080756795986431899
+    second: radio_dust_bits_8
+  - first:
+      213: 8184547374342326407
+    second: radio_dust_bits_9
+  - first:
+      213: 5977305793440990428
+    second: radio_dust_bits_10
+  - first:
+      213: 6458308986796492530
+    second: radio_dust_bits_11
+  - first:
+      213: 3242052449160703053
+    second: radio_dust_bits_12
+  - first:
+      213: -7850594239502297453
+    second: radio_dust_bits_13
+  - first:
+      213: 7066535329217349060
+    second: radio_dust_bits_14
+  - first:
+      213: -7291408332686791507
+    second: radio_dust_bits_15
+  - first:
+      213: -7453920506652210268
+    second: radio_dust_bits_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: radio_dust_bits_0
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 566
+        width: 123
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9573a548993b0c0800000000000000
+      internalID: -4561133203867870725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_1
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 505
+        width: 96
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29471f3287d67610800000000000000
+      internalID: 1618718070490482986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_2
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 600
+        width: 130
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfd5e31ee2e74df0800000000000000
+      internalID: -195938546603401286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_3
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 510
+        width: 191
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d061b92a4a9d68d0800000000000000
+      internalID: -2851453345737908011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_4
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 506
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8732dd4fbb7a3580800000000000000
+      internalID: -8846622456441325684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_5
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 426
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6acedfd0757bf950800000000000000
+      internalID: 6483905216182667886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_6
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 211
+        width: 186
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f86b243f811eb80800000000000000
+      internalID: -8367379199602290831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_7
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 241
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0760670258e3bae0800000000000000
+      internalID: -1534627608994486517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_8
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 235
+        width: 199
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f4c51749e9ffe00800000000000000
+      internalID: 1080756795986431899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 234
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788c70f297a559170800000000000000
+      internalID: 8184547374342326407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_10
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 209
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd44fe333f7a3f250800000000000000
+      internalID: 5977305793440990428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_11
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 64
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6c7bf4ec580a950800000000000000
+      internalID: 6458308986796492530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_12
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 160
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ca86f76851efc20800000000000000
+      internalID: 3242052449160703053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_13
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 13
+        width: 173
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396dcb622261d0390800000000000000
+      internalID: -7850594239502297453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_14
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 55
+        width: 109
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c58fba1170611260800000000000000
+      internalID: 7066535329217349060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_15
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 82
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac61e1c0c6bfca90800000000000000
+      internalID: -7291408332686791507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radio_dust_bits_16
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 60
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abcef0baca5e8890800000000000000
+      internalID: -7453920506652210268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      radio_dust_bits_0: -4561133203867870725
+      radio_dust_bits_1: 1618718070490482986
+      radio_dust_bits_10: 5977305793440990428
+      radio_dust_bits_11: 6458308986796492530
+      radio_dust_bits_12: 3242052449160703053
+      radio_dust_bits_13: -7850594239502297453
+      radio_dust_bits_14: 7066535329217349060
+      radio_dust_bits_15: -7291408332686791507
+      radio_dust_bits_16: -7453920506652210268
+      radio_dust_bits_2: -195938546603401286
+      radio_dust_bits_3: -2851453345737908011
+      radio_dust_bits_4: -8846622456441325684
+      radio_dust_bits_5: 6483905216182667886
+      radio_dust_bits_6: -8367379199602290831
+      radio_dust_bits_7: -1534627608994486517
+      radio_dust_bits_8: 1080756795986431899
+      radio_dust_bits_9: 8184547374342326407
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

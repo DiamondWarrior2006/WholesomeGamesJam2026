@@ -29,3 +29,11 @@ public class Part
         return new Part { item = item, cleanliness = cleanliness, connected = connected };
     }
 }
+
+
+
+public interface IPart
+{
+    PartData Data { get; }
+    void Initialize(Part part);
+}

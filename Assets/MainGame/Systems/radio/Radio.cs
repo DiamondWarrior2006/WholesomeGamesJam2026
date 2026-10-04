@@ -5,12 +5,10 @@ using UnityEngine.Events;
 public class Radio : MonoBehaviour
 {
     [Header("Parts")]
-    [SerializeField] private PartData bodyData;
     [SerializeField] private PartData antennaData;
     [SerializeField] private ToyData testToy;
 
     [Header("Visuals")]
-    [SerializeField] private SpriteRenderer dust;
     [SerializeField] private Transform antenna;
     [SerializeField] private Transform knob;
 
@@ -25,7 +23,6 @@ public class Radio : MonoBehaviour
     [SerializeField] private Color lightTuned = Color.green;
 
     [Header("Repair")]
-    [SerializeField] private float rubToClean = 3000f; // pixels of rubbing
     [SerializeField] private float turnsToTighten = 2f;
 
     [Header("Tuning (MHz)")]
@@ -45,7 +42,6 @@ public class Radio : MonoBehaviour
     // 0 = only crackles, 1 = clear station
     public float Tuning => HasSignal ? Mathf.Clamp01(1f - Mathf.Abs(Frequency - targetFrequency) / searchRange) : 0f;
 
-    private Part bodyPart;
     private Part antennaPart;
 
     private void Start()
@@ -66,15 +62,14 @@ public class Radio : MonoBehaviour
 
     public void Load(Toy toy)
     {
-        bodyPart = toy.GetPart(bodyData);
         antennaPart = toy.GetPart(antennaData);
-        Refresh();
-    }
 
-    public void Rub(float pixels)
-    {
-        if (bodyPart == null) return;
-        bodyPart.cleanliness = Mathf.Clamp01(bodyPart.cleanliness + pixels / rubToClean);
+        // every part component finds its own part by its PartData
+        foreach (var part in GetComponentsInChildren<IPart>(true))
+        {
+            part.Initialize(toy.GetPart(part.Data));
+        }
+
         Refresh();
     }
 
@@ -99,13 +94,6 @@ public class Radio : MonoBehaviour
 
     private void Refresh()
     {
-        if (bodyPart != null)
-        {
-            var color = dust.color;
-            color.a = bodyPart.IsClean ? 0f : 1f - bodyPart.cleanliness;
-            dust.color = color;
-        }
-
         if (antennaPart != null)
         {
             antenna.localRotation = Quaternion.Euler(0f, 0f, (1f - antennaPart.connected) * 30f);
