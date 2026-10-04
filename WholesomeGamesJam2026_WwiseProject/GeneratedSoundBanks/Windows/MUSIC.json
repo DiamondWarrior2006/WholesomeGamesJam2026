@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3991942870",
+    "Type": "User",
+    "GUID": "{D59832BD-3DE3-4A45-9F2C-F7E304D99B44}",
+    "Language": "SFX",
+    "Hash": "{DC2E7842-2AF5-E241-5DF5-FB17038B5109}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
+    "ShortName": "MUSIC",
+    "Path": "MUSIC.bnk",
+    "Media": [
+     {
+      "Id": "546894197",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "MX_ToyWorkshop_TestMusic_1_1Pre1Post_60BPM.wav",
+      "Path": "Media/546894197.wem",
+      "CachePath": "C9/{C96ECD29-C680-3592-416E-F7B2DC29CD0E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "816019498",
+      "Name": "MX_BackgroundMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\MX_BackgroundMusic",
+      "GUID": "{3CF63918-AD0A-4D00-BEDD-E9BB4F2657FF}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "546894197"
+       }
+      ]
+     },
+     {
+      "Id": "4271380633",
+      "Name": "MX_BackgroundMusic_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\MX_BackgroundMusic_Stop",
+      "GUID": "{B9B6C64F-8952-4120-996C-863B9B4E0849}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{445BA817-8D6C-25F4-9763-2791D9028FA6}"
+ }
+}

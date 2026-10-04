@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f0dacfe039497746ad0feee762f06a84
     GuidInternal: 
-    m_lastTime: -8584104624920369292
+    m_lastTime: -8584104617359251006
     List:
+    - name: MUSIC
+      guid: bd3298d5e33d454a9f2cf7e304d99b44
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f0dacfe039497746ad0feee762f06a84
+      - ElementName: MUSIC
+        ObjectType: 7
+        guid: bd3298d5e33d454a9f2cf7e304d99b44
+      Path: SoundBanks\Default Work Unit\MUSIC
     - name: SFX
       guid: 08a4435f5c78f14bb5febb4ed63e7ffa
       id: 393239870
@@ -94,8 +108,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a22f133682cac742a47dee0de76d8297
     GuidInternal: 
-    m_lastTime: -8584104625394610724
+    m_lastTime: -8584104617786934640
     List:
+    - name: MX_BackgroundMusic
+      guid: 1839f63c0aad004dbedde9bb4f2657ff
+      id: 816019498
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a22f133682cac742a47dee0de76d8297
+      - ElementName: MX_BackgroundMusic
+        ObjectType: 3
+        guid: 1839f63c0aad004dbedde9bb4f2657ff
+      Path: Events\Default Work Unit\MX_BackgroundMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MX_BackgroundMusic_Stop
+      guid: 4fc6b6b952892041996c863b9b4e0849
+      id: 4271380633
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a22f133682cac742a47dee0de76d8297
+      - ElementName: MX_BackgroundMusic_Stop
+        ObjectType: 3
+        guid: 4fc6b6b952892041996c863b9b4e0849
+      Path: Events\Default Work Unit\MX_BackgroundMusic_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: SFX_AirDuster
       guid: ff2825ec7d999b439928b5063dca9ea3
       id: 2085915398
@@ -204,7 +252,7 @@ MonoBehaviour:
     m_lastTime: -8584104630512108845
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000
+  ExpandedWaapiItemIds: 05000000060000000f00000010000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

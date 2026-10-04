@@ -12,6 +12,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="MUSIC" ID="{D59832BD-3DE3-4A45-9F2C-F7E304D99B44}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MX_BackgroundMusic_Stop" ID="{B9B6C64F-8952-4120-996C-863B9B4E0849}" WorkUnitID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MX_BackgroundMusic" ID="{3CF63918-AD0A-4D00-BEDD-E9BB4F2657FF}" WorkUnitID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
