@@ -1,11 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
 	16820559	SFX_Radio_Play			\Default Work Unit\SFX_Radio_Play	
 	816019498	MX_BackgroundMusic			\Default Work Unit\MX_BackgroundMusic	
-	835579413	SFX_Radio_Switch			\Default Work Unit\SFX_Radio_Switch	
 	1301463173	SFX_Screwdriver			\Default Work Unit\SFX_Screwdriver	
 	2085915398	SFX_AirDuster			\Default Work Unit\SFX_AirDuster	
 	2734451277	SFX_Radio_Stop			\Default Work Unit\SFX_Radio_Stop	
 	3705479319	SFX_PickUpScrew			\Default Work Unit\SFX_PickUpScrew	
+	4025059482	SFX_Radio_BrokenSwitch			\Default Work Unit\SFX_Radio_BrokenSwitch	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	4073857046	Test_RadioTuning			\Default Work Unit\Test_RadioTuning	

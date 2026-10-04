@@ -413,12 +413,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>50</YPos>
+																				<YPos>40</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>100</XPos>
-																				<YPos>50</YPos>
+																				<YPos>40</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -448,6 +448,11 @@
 												<Property Name="IsStreamingEnabled" Type="bool">
 													<ValueList>
 														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -498,8 +503,13 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>28.43561</XPos>
-																				<YPos>-0</YPos>
+																				<XPos>15.20032</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>35.13072</XPos>
+																				<YPos>1.62663</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
@@ -541,7 +551,7 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>46.5765881943807</RightEdgePos>
+												<RightEdgePos>36.8109631943807</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 												<RightFadingSegmentShape>Exp3</RightFadingSegmentShape>
 											</CrossfadingInfo>
@@ -551,15 +561,15 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>2.38890891022071</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>94.786260406017</RightEdgePos>
+												<RightEdgePos>97.9608635806202</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
-												<RightFadingSegmentShape>Linear</RightFadingSegmentShape>
+												<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="SFX_Radio_Program" ID="{9E0C76FD-599A-4354-823B-65BCE7DBEBD5}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>50.5017474300495</LeftEdgePos>
+												<LeftEdgePos>39.4340390967161</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<LeftFadingSegmentShape>Exp1</LeftFadingSegmentShape>
 												<RightEdgePos>100</RightEdgePos>

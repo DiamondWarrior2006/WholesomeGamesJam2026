@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{5F43A408-785C-4BF1-B5FE-BB4ED63E7FFA}",
     "Language": "SFX",
-    "Hash": "{6C630CA9-B78F-96D8-034F-A6CEAFE1C5D0}",
+    "Hash": "{20CB3AD4-DABA-3984-9EF9-48B22386A0BE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -488,6 +488,32 @@
       ]
      },
      {
+      "Id": "4025059482",
+      "Name": "SFX_Radio_BrokenSwitch",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Radio_BrokenSwitch",
+      "GUID": "{EDF08FC7-6A5A-4E8D-935C-3BED8BCA166D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.22891666",
+      "DurationMax": "0.35829166",
+      "MediaRefs": [
+       {
+        "Id": "33734411"
+       },
+       {
+        "Id": "90700757"
+       },
+       {
+        "Id": "251538411"
+       },
+       {
+        "Id": "634385684"
+       },
+       {
+        "Id": "870354756"
+       }
+      ]
+     },
+     {
       "Id": "16820559",
       "Name": "SFX_Radio_Play",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_Radio_Play",
@@ -567,32 +593,6 @@
       ]
      },
      {
-      "Id": "835579413",
-      "Name": "SFX_Radio_Switch",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Radio_Switch",
-      "GUID": "{EDF08FC7-6A5A-4E8D-935C-3BED8BCA166D}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.22891666",
-      "DurationMax": "0.35829166",
-      "MediaRefs": [
-       {
-        "Id": "33734411"
-       },
-       {
-        "Id": "90700757"
-       },
-       {
-        "Id": "251538411"
-       },
-       {
-        "Id": "634385684"
-       },
-       {
-        "Id": "870354756"
-       }
-      ]
-     },
-     {
       "Id": "1301463173",
       "Name": "SFX_Screwdriver",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_Screwdriver",
@@ -653,6 +653,6 @@
     ]
    }
   ],
-  "FileHash": "{EC258896-2B6F-BC68-DE19-6D211C322132}"
+  "FileHash": "{36787611-6ACD-B6E4-D613-1C51C879825F}"
  }
 }

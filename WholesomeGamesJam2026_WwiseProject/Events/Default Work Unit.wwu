@@ -134,7 +134,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="SFX_Radio_Switch" ID="{EDF08FC7-6A5A-4E8D-935C-3BED8BCA166D}">
+				<Event Name="SFX_Radio_BrokenSwitch" ID="{EDF08FC7-6A5A-4E8D-935C-3BED8BCA166D}">
 					<ChildrenList>
 						<Action Name="" ID="{04CA6EE5-5664-421F-AF37-3D1859045FF8}" ShortID="228295887">
 							<ReferenceList>
