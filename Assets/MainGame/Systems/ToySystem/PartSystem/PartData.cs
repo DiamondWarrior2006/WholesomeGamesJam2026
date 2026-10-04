@@ -14,12 +14,8 @@ public class PartData : ScriptableObject
 public class Part
 {
     public PartData item;
-
-
     [Range(0f, 1f)]
     public float cleanliness = 1f;
-
-    
     [Range(0f, 1f)]
     public float connected = 0f;
 }
