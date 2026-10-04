@@ -10,11 +10,36 @@
     "Type": "User",
     "GUID": "{5F43A408-785C-4BF1-B5FE-BB4ED63E7FFA}",
     "Language": "SFX",
-    "Hash": "{4530F6C3-7C68-108E-D7F7-7EC0C64656E2}",
+    "Hash": "{6C630CA9-B78F-96D8-034F-A6CEAFE1C5D0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "Media": [
+     {
+      "Id": "33734411",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Radio_Switch_4.wav",
+      "CachePath": "0C/{0C044F1F-39AD-3B81-48F6-1D3617AA070E}.wem"
+     },
+     {
+      "Id": "49003507",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "SFX_Radio_Crackle_Harsh_3.wav",
+      "Path": "Media/49003507.wem",
+      "CachePath": "A6/{A6FF1192-F4BC-39AC-6544-8060702A19C3}.wem"
+     },
+     {
+      "Id": "90700757",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Radio_Switch_2.wav",
+      "CachePath": "F3/{F31329FF-F8F7-C92D-7F29-2C5ADE416FFF}.wem"
+     },
      {
       "Id": "119995760",
       "Language": "SFX",
@@ -62,6 +87,23 @@
       "Location": "Memory",
       "ShortName": "SFX_AirDuster_Soft_1.wav",
       "CachePath": "7B/{7B72426F-EE44-E2B4-9E83-1968747D58A4}.wem"
+     },
+     {
+      "Id": "251538411",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Radio_Switch_3.wav",
+      "CachePath": "F4/{F4CF0F4D-B2C8-4ED6-753C-EF41B7D62EF2}.wem"
+     },
+     {
+      "Id": "262279156",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "SFX_Radio_Crackle_Soft_2.wav",
+      "Path": "Media/262279156.wem",
+      "CachePath": "67/{67B87EAB-6F28-FB78-F7CB-B039CF4BB53A}.wem"
      },
      {
       "Id": "360489640",
@@ -144,6 +186,15 @@
       "CachePath": "59/{59937A9F-1A00-4D25-633B-6EEC3DF6F35F}.wem"
      },
      {
+      "Id": "546894197",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "MX_ToyWorkshop_TestMusic_1_1Pre1Post_60BPM.wav",
+      "Path": "Media/546894197.wem",
+      "CachePath": "C9/{C96ECD29-C680-3592-416E-F7B2DC29CD0E}.wem"
+     },
+     {
       "Id": "586528383",
       "Language": "SFX",
       "Streaming": "false",
@@ -176,6 +227,15 @@
       "CachePath": "A3/{A32D246E-2EDC-2AD4-4CFA-7183FFDD17E5}.wem"
      },
      {
+      "Id": "605397427",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "MX_Radio_Music_RainPiano_StrictLoop.wav",
+      "Path": "Media/605397427.wem",
+      "CachePath": "68/{687C11A0-57F9-E63F-BF52-D28A1B5B7E29}.wem"
+     },
+     {
       "Id": "609752247",
       "Language": "SFX",
       "Streaming": "false",
@@ -184,12 +244,29 @@
       "CachePath": "92/{927C70D3-12DD-2993-8F6A-BACB78C9E190}.wem"
      },
      {
+      "Id": "614152022",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "SFX_Radio_Crackle_Soft_1.wav",
+      "Path": "Media/614152022.wem",
+      "CachePath": "E5/{E5E03137-A1EA-7735-0E02-520CFF082797}.wem"
+     },
+     {
       "Id": "625766822",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_AirDuster_Soft_5.wav",
       "CachePath": "56/{568503CC-9A2A-EED6-B2B6-4375A52ACCE0}.wem"
+     },
+     {
+      "Id": "634385684",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Radio_Switch_5.wav",
+      "CachePath": "01/{01F3DED2-A952-F50B-1F6B-3B3933E632DE}.wem"
      },
      {
       "Id": "737716366",
@@ -224,6 +301,15 @@
       "CachePath": "1C/{1CBDCF06-0864-FB09-D8CD-55D2E41D4A2D}.wem"
      },
      {
+      "Id": "796230905",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "SFX_Radio_Crackle_Harsh_1.wav",
+      "Path": "Media/796230905.wem",
+      "CachePath": "9D/{9DC6DA4A-3B6F-B3AF-F9B3-F6C155CDEEAB}.wem"
+     },
+     {
       "Id": "816664471",
       "Language": "SFX",
       "Streaming": "false",
@@ -240,12 +326,29 @@
       "CachePath": "F4/{F4AD2343-8707-68F5-472D-9CAB0AE43248}.wem"
      },
      {
+      "Id": "870354756",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Radio_Switch_1.wav",
+      "CachePath": "3F/{3FD083ED-CA80-5452-8878-664C9E261B77}.wem"
+     },
+     {
       "Id": "899842018",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Screwdriver_7.wav",
       "CachePath": "9E/{9EA80FA0-E846-4ED8-371F-833ADDDA6F2D}.wem"
+     },
+     {
+      "Id": "904159484",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "SFX_Radio_Crackle_Harsh_2.wav",
+      "Path": "Media/904159484.wem",
+      "CachePath": "78/{784B6134-4AEB-FAC1-B7FD-2DAF258F21AA}.wem"
      },
      {
       "Id": "933691196",
@@ -262,6 +365,15 @@
       "Location": "Memory",
       "ShortName": "SFX_Screwdriver_2.wav",
       "CachePath": "B0/{B04054FE-FEB3-09BF-68EE-A32BD25CFC87}.wem"
+     },
+     {
+      "Id": "979734635",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "SFX_Radio_SearchWobble.wav",
+      "Path": "Media/979734635.wem",
+      "CachePath": "8E/{8E965809-8F9E-C5C4-9ED0-2A521EDA1336}.wem"
      },
      {
       "Id": "996273187",
@@ -281,6 +393,18 @@
      }
     ],
     "Events": [
+     {
+      "Id": "816019498",
+      "Name": "MX_BackgroundMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\MX_BackgroundMusic",
+      "GUID": "{3CF63918-AD0A-4D00-BEDD-E9BB4F2657FF}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "546894197"
+       }
+      ]
+     },
      {
       "Id": "2085915398",
       "Name": "SFX_AirDuster",
@@ -364,6 +488,111 @@
       ]
      },
      {
+      "Id": "16820559",
+      "Name": "SFX_Radio_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Radio_Play",
+      "GUID": "{B8A6AF69-8234-428B-859C-A23B2EEA830B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "33734411"
+       },
+       {
+        "Id": "49003507"
+       },
+       {
+        "Id": "90700757"
+       },
+       {
+        "Id": "251538411"
+       },
+       {
+        "Id": "262279156"
+       },
+       {
+        "Id": "605397427"
+       },
+       {
+        "Id": "614152022"
+       },
+       {
+        "Id": "634385684"
+       },
+       {
+        "Id": "796230905"
+       },
+       {
+        "Id": "870354756"
+       },
+       {
+        "Id": "904159484"
+       },
+       {
+        "Id": "979734635"
+       }
+      ]
+     },
+     {
+      "Id": "2734451277",
+      "Name": "SFX_Radio_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Radio_Stop",
+      "GUID": "{B9249D2F-70EC-4FB9-B642-D19D0252B9AC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.22891666",
+      "DurationMax": "0.35829166",
+      "MediaRefs": [
+       {
+        "Id": "33734411"
+       },
+       {
+        "Id": "90700757"
+       },
+       {
+        "Id": "251538411"
+       },
+       {
+        "Id": "634385684"
+       },
+       {
+        "Id": "870354756"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "816019498",
+        "Name": "MX_BackgroundMusic",
+        "ObjectPath": "\\Events\\Default Work Unit\\MX_BackgroundMusic",
+        "GUID": "{3CF63918-AD0A-4D00-BEDD-E9BB4F2657FF}"
+       }
+      ]
+     },
+     {
+      "Id": "835579413",
+      "Name": "SFX_Radio_Switch",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Radio_Switch",
+      "GUID": "{EDF08FC7-6A5A-4E8D-935C-3BED8BCA166D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.22891666",
+      "DurationMax": "0.35829166",
+      "MediaRefs": [
+       {
+        "Id": "33734411"
+       },
+       {
+        "Id": "90700757"
+       },
+       {
+        "Id": "251538411"
+       },
+       {
+        "Id": "634385684"
+       },
+       {
+        "Id": "870354756"
+       }
+      ]
+     },
+     {
       "Id": "1301463173",
       "Name": "SFX_Screwdriver",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_Screwdriver",
@@ -413,9 +642,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "4073857046",
+      "Name": "Test_RadioTuning",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Test_RadioTuning",
+      "GUID": "{CC308382-2DA3-4C52-ABA9-5A11B7473DFA}"
+     }
     ]
    }
   ],
-  "FileHash": "{B060542D-8B7F-133E-F08E-02002C02B351}"
+  "FileHash": "{DE6C5806-289A-F7F9-8E76-A982852154A7}"
  }
 }

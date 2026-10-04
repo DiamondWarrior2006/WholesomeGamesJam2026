@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D59832BD-3DE3-4A45-9F2C-F7E304D99B44}",
     "Language": "SFX",
-    "Hash": "{E5EC19B9-88DF-88D3-D2CA-FB18AAAE67D2}",
+    "Hash": "{308C8769-64BF-9397-577B-FFCEEE49D0CC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
@@ -37,20 +37,10 @@
         "Id": "546894197"
        }
       ]
-     },
-     {
-      "Id": "4271380633",
-      "Name": "MX_BackgroundMusic_Stop",
-      "ObjectPath": "\\Events\\Default Work Unit\\MX_BackgroundMusic_Stop",
-      "GUID": "{B9B6C64F-8952-4120-996C-863B9B4E0849}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{26468FE3-3808-5F54-7FD3-06FDC6687587}"
+  "FileHash": "{2E1C7556-931B-B6B1-3EF3-C2C85ADA0C00}"
  }
 }

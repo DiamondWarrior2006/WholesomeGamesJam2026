@@ -39,19 +39,8 @@
 				<Event Name="MX_BackgroundMusic" ID="{3CF63918-AD0A-4D00-BEDD-E9BB4F2657FF}">
 					<ChildrenList>
 						<Action Name="" ID="{F9C41E0A-7CFD-48D9-A2FA-26585DCFDE82}" ShortID="983876574">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MX_BackgroundMusic" ID="{940C8CF1-F350-4482-8EE0-87914208AE4B}" WorkUnitID="{53B0A739-DB2F-486D-846E-87B3A53A6010}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="MX_BackgroundMusic_Stop" ID="{B9B6C64F-8952-4120-996C-863B9B4E0849}">
-					<ChildrenList>
-						<Action Name="" ID="{DAECA610-E09D-4214-B1CA-9D4B3AA77280}" ShortID="355593122">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -87,7 +76,7 @@
 						<Action Name="" ID="{7E5E331A-E0C7-4B73-9AE4-C4266AF74E2A}" ShortID="548862550">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="2.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -120,10 +109,26 @@
 							<PropertyList>
 								<Property Name="Delay" Type="Real64" Value="1.5"/>
 								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MX_BackgroundMusic" ID="{940C8CF1-F350-4482-8EE0-87914208AE4B}" WorkUnitID="{53B0A739-DB2F-486D-846E-87B3A53A6010}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7CEB9D0B-E517-4609-84E9-76FA21F969D8}" ShortID="253006305">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MX_BackgroundMusic" ID="{3CF63918-AD0A-4D00-BEDD-E9BB4F2657FF}" WorkUnitID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

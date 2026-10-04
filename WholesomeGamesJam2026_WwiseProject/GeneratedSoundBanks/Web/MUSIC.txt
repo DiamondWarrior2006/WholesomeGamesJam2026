@@ -1,6 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
 	816019498	MX_BackgroundMusic			\Default Work Unit\MX_BackgroundMusic	
-	4271380633	MX_BackgroundMusic_Stop			\Default Work Unit\MX_BackgroundMusic_Stop	
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	546894197	MX_ToyWorkshop_TestMusic_1_1Pre1Post_60BPM	C:\Users\annim\Documents\GitHub\WholesomeGamesJam2026\WholesomeGamesJam2026_WwiseProject\.cache\C9\{C96ECD29-C680-3592-416E-F7B2DC29CD0E}.wem	546894197.wem	\Interactive Music Hierarchy\Default Work Unit\MX_BackgroundMusic\MX_ToyWorkshop_TestMusic_1_1Pre1Post_60BPM\MX_ToyWorkshop_TestMusic_1_1Pre1Post_60BPM	

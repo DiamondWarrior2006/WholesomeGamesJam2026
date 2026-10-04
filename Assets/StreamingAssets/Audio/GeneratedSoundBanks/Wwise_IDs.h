@@ -14,9 +14,11 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID MX_BACKGROUNDMUSIC = 816019498U;
-        static const AkUniqueID MX_BACKGROUNDMUSIC_STOP = 4271380633U;
         static const AkUniqueID SFX_AIRDUSTER = 2085915398U;
         static const AkUniqueID SFX_PICKUPSCREW = 3705479319U;
+        static const AkUniqueID SFX_RADIO_PLAY = 16820559U;
+        static const AkUniqueID SFX_RADIO_STOP = 2734451277U;
+        static const AkUniqueID SFX_RADIO_SWITCH = 835579413U;
         static const AkUniqueID SFX_SCREWDRIVER = 1301463173U;
     } // namespace EVENTS
 

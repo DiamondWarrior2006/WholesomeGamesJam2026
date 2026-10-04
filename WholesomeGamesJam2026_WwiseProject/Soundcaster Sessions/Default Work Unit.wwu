@@ -18,10 +18,6 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="MX_BackgroundMusic_Stop" ID="{B9B6C64F-8952-4120-996C-863B9B4E0849}" WorkUnitID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="SFX_PickUpScrew" ID="{32469352-49A7-468D-BA28-AE00BD6B0CAD}" WorkUnitID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}"/>
 							<Position X="1" Y="1"/>
 						</Module>
@@ -41,7 +37,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Test_RadioTuning" ID="{CC308382-2DA3-4C52-ABA9-5A11B7473DFA}"/>
-							<Value>0</Value>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
