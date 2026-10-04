@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E0CFDAF0-4939-4677-AD0F-EEE762F06A84}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{E0CFDAF0-4939-4677-AD0F-EEE762F06A84}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SFX" ID="{5F43A408-785C-4BF1-B5FE-BB4ED63E7FFA}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SFX_Screwdriver" ID="{AEA260DD-1CBB-4347-8E43-347759375AF3}" WorkUnitID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_AirDuster" ID="{EC2528FF-997D-439B-9928-B5063DCA9EA3}" WorkUnitID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_PickUpScrew" ID="{32469352-49A7-468D-BA28-AE00BD6B0CAD}" WorkUnitID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

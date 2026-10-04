@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{36132FA2-CA82-42C7-A47D-EE0DE76D8297}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="SFX_AirDuster" ID="{EC2528FF-997D-439B-9928-B5063DCA9EA3}">
+					<ChildrenList>
+						<Action Name="" ID="{E790574F-4505-4A51-B2D3-C9D0A8FCE230}" ShortID="316612293">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_AirDuster" ID="{0AFBE7FF-8F68-4CB1-8473-D8DFC7C664A4}" WorkUnitID="{74F0D9AE-A8A1-4E65-A090-6458163CCC69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_PickUpScrew" ID="{32469352-49A7-468D-BA28-AE00BD6B0CAD}">
+					<ChildrenList>
+						<Action Name="" ID="{C6A61DB5-46A1-4743-90F4-718DF238B9A1}" ShortID="624668984">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_PickUpScrew" ID="{C7DDE2F5-C7B2-45B3-9176-B51293EF5D84}" WorkUnitID="{74F0D9AE-A8A1-4E65-A090-6458163CCC69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Screwdriver" ID="{AEA260DD-1CBB-4347-8E43-347759375AF3}">
+					<ChildrenList>
+						<Action Name="" ID="{779BC81F-6BA3-426E-9612-78B7DB3B6020}" ShortID="322872395">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Screwdriver" ID="{1EFA05A6-996D-4F84-A3FF-4A199288DA64}" WorkUnitID="{74F0D9AE-A8A1-4E65-A090-6458163CCC69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
